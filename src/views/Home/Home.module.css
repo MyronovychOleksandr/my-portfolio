@@ -1,0 +1,29 @@
+.text {
+    text-indent: 25px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: justify;
+    color: #cddbdf
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-top: 30px;
+    }
+
+    .text {
+        font-size: 16px;  
+    }
+}
+
+@media (min-width: 1240px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text {
+        font-size: 18px;  
+        margin-bottom: 15px;
+    }
+}

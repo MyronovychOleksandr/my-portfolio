@@ -1,0 +1,29 @@
+.container {
+    color: #cddbdf;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.period {
+    font-style: italic;
+}
+
+@media (min-width: 980px) {
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

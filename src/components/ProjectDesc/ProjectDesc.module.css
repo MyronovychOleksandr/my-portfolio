@@ -1,0 +1,43 @@
+.container {
+    color: #cddbdf;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.technologies {
+    margin-bottom: 10px;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.item {
+    text-transform: lowercase;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:visited {
+    color:blueviolet;
+}
+
+.desc {
+    text-align:justify;
+    text-indent: 25px;
+}
+
+@media (min-width: 1240px) {
+    .container {
+        padding-top: 30px;
+    }
+    .name {
+        margin-bottom: 25px;
+    }
+}

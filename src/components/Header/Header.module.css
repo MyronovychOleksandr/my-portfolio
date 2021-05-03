@@ -1,0 +1,71 @@
+.header {
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.icon {
+    width: 20px;
+    height: 25px;
+    fill: #fff
+}
+
+.icon:hover {
+    fill: #923737
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.elem {
+    display: inline-block;
+    height: 3px;
+    width: 100%;
+    background: white;
+}
+
+@media (min-width: 768px) {
+    .header {
+        width: 80%;
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .box {
+        display: none;
+    }
+}
+
+@media (min-width: 1240px) {
+    .header {
+        width: 70%;
+    }
+}
+
+.visuallyHidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
