@@ -10,7 +10,7 @@ const Contacts = () => {
         <p className={s.box}>
           <span className={s.cont}>myronovych.o7@gmail.com</span>
 
-          <span className={s.cont}>097 05 44 719</span>
+          <span className={s.cont}>098 321 69 64</span>
         </p>
 
         <ul className={s.list}>

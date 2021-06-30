@@ -11,20 +11,25 @@ export default class Controls extends Component {
   render() {
     const { projects } = this.props;
     return (
-      <ul className={s.list}>
+      <div className={s.list}>
         {projects.map(({ name }, idx) => {
           return (
-            <li
+            <div key={name}>
+            <input
+            id={name}
+              type="radio"
               className={s.item}
-              key={name}
+              value={name}
+              name="projects"
               data-index={idx}
               onClick={this.handleClick}
-            >
-              {name}
-            </li>
+            />
+            <label htmlFor={name} className={s.label} >{name}</label>
+            </div>
+              
           );
         })}
-      </ul>
+      </div>
     );
   }
 }

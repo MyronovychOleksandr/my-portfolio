@@ -1,7 +1,7 @@
 .title {
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .container {
@@ -19,7 +19,7 @@
 
 .cont {
     margin-bottom: 20px;
-    font-family: 'Montserrat-300i';
+    font-family: "Montserrat-300i";
 }
 
 .list {
@@ -31,7 +31,6 @@
     margin-right: 15px;
 }
 
-
 .icon {
     width: 30px;
     height: 30px;
@@ -39,5 +38,5 @@
 }
 
 .icon:hover {
-    fill: #020086
+    fill: rgb(151, 14, 14);
 }

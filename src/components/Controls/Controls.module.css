@@ -6,12 +6,20 @@
 }
 
 .item {
-    margin-right: 10px;
-    text-transform: uppercase;
+    display: none;
+}
+
+.label {
+    display: inline-block;
     cursor: pointer;
+    margin-right: 5px;
+    padding: 0px 15px;
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
 }
 
-.item:hover {
-    color: rgb(151, 14, 14);
+.item:checked + label {
+    background: rgb(151, 14, 14);
 }
-
