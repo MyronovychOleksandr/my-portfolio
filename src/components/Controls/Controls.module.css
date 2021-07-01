@@ -20,6 +20,10 @@
     user-select: none;
 }
 
+.label:hover {
+    background: rgb(151, 14, 14);
+}
+
 .item:checked + label {
     background: rgb(151, 14, 14);
 }
